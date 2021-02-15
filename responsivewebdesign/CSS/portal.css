@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #000;
+  color: #999;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  background-color: #e50914;
+  color: #1b1a1a;
+  padding: 10px;
+  min-height: 50px;
+  border-bottom: #51666b 3px solid;
+  margin-bottom: 0px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar .login {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #1b1a1a;
+}
+
+footer {
+  padding: 10px;
+  background: #e50914;
+  color: #fff;
+  min-height: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-footer-icons a {
+  padding: 10px;
+}
+
+.showcase {
+  background-image: url("../Images/netflixbg.jpg");
+  min-height: 400px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	margin : auto;
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items : center;
+}
+
+.btn {
+  display: inline;
+  background: #e50914;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+  border-radius: 2px;
+}
+
+
+.btn-xl {
+  font-size: 25px;
+  padding: 8px ;
+  margin : 8px;
+
+}
+
+.carousel-caption h3{
+  color : #fff;
+  font-size : 25px;
+}
+.container-fluid h2,h3{
+  color: #e50914;
+}
+
+.list-group-item{
+  padding : 5px;
+  background: #302e2e;
+  color: #fff;
+}
+
+.card{
+  background: #302e2e;
+  color: #fff;
+}
+
+.watch{
+  float : right ;
+}
+
+.jumbotron {
+  padding : 15px;
+  margin: auto;
+  width : 90%;
+  text-align: center;
+  background: #302e2e;
+  color: #fff;
+}

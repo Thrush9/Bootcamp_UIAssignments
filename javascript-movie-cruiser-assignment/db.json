@@ -1,0 +1,38 @@
+{
+  "movies": [
+    {
+      "id": 123,
+      "title": "Avatar",
+      "rating": 9.3,
+      "posterPath": "images/avatar.jpg",
+      "genre": "Sci-fi",
+      "runTime": 180
+    },
+    {
+      "id": 234,
+      "title": "Narnia",
+      "rating": 8.2,
+      "posterPath": "images/narnia.jpg",
+      "genre": "Fantasy",
+      "runTime": 130
+    },
+    {
+      "id": 345,
+      "title": "Taken",
+      "rating": 9.1,
+      "posterPath": "images/taken.jpg",
+      "genre": "Thriller",
+      "runTime": 140
+    }
+  ],
+  "favourites": [
+    {
+      "id": 123,
+      "title": "Avatar",
+      "rating": 9.3,
+      "posterPath": "images/avatar.jpg",
+      "genre": "Sci-fi",
+      "runTime": 180
+    }
+  ]
+}
